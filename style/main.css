@@ -1053,6 +1053,17 @@ list-style: none;
    .des {
       font-size: 1.2rem;
    }
+   .yourinformation{
+      display: none;
+   }
+   .buttominfo{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      max-width: 40px;
+
+   }
 }
 
 

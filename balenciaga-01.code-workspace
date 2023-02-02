@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../OneDrive/Desktop/balenciaga/style"
+		},
+		{
+			"path": "../../../OneDrive/Desktop/balenciaga/.idea"
+		},
+		{
+			"path": "../../../OneDrive/Desktop/balenciaga/img"
+		},
+		{
+			"path": "../../../OneDrive/Desktop/balenciaga/script"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "balenciaga-01"
+	}
+}
