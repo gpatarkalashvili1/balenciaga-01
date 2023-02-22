@@ -4,6 +4,19 @@ let loginForm = document.querySelector(".LoginFormContainer");
 let formClose = document.querySelector("#FormClose");
 let menu = document.querySelector("#menuBtn");
 let navbar = document.querySelector(".navbar");
+const games = document.getElementById('games');
+
+// API
+$.ajax({
+    url: "https://www.cheapshark.com/api/1.0/games?title=call%20of%20duty&limit=8&exact=0",
+    type: 'GET',
+    success: function(response) {
+        for (const item of response) {
+            const title = item.external
+            const thumb = item.thumb
+        }
+    }
+});
 
 menu.onclick = () => {
     menu.classList.toggle("fa-times");
